@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/qiushao_bbs?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&serverTimezone=UTC
+    username: root
+    password: root
+
+
+# 开发环境配置
+server:
+  # 服务器的HTTP端口，默认为8088
+  port: 8088
